@@ -1,0 +1,43 @@
+nav {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    padding: 15px;
+}
+
+.burger_menu {
+    justify-self: flex-start;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 22px;
+}
+
+.burger_menu span {
+    height: 5px;
+    width: 31px;
+    background-color: #000;
+}
+
+.logo {
+    justify-self: center;
+    height: auto;
+    width: 100px;
+}
+
+.coins {
+    justify-self: flex-end;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F79D55;
+    font-weight: 600;
+    border: 2px #F79D55 solid;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.coins p {
+    margin-right: 2px;
+}
