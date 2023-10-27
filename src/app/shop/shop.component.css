@@ -1,0 +1,51 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.title,
+.description {
+  margin-bottom: 5px;
+}
+
+.item {
+  margin: 20px;
+  padding: 20px;
+  max-width: 350px;
+  width: 100%;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10), -1px -2px 4px 0px rgba(0, 0, 0, 0.10) inset;
+  border-radius: 6px;
+  background-color: #fff;
+}
+
+.item .btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item .coin {
+  margin-right: 10px;
+  width: 70%;
+  border: 4px #F79D55 solid;
+  border-radius: 5px;
+  color: #F79D55;
+  padding: 10px;
+  font-weight: bolder;
+  font-size: 18px;
+  background-color: transparent;
+}
+
+.item .bill {
+  margin-left: 10px;
+  width: 30%;
+  border: 4px #96EFA0 solid;
+  border-radius: 5px;
+  color: #96EFA0;
+  padding: 8px;
+  font-weight: bolder;
+  font-size: 18px;
+  background-color: transparent;
+}

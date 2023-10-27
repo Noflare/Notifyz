@@ -1,1 +1,19 @@
+.container_tel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 
+.content {
+  width: 390px;
+  height: 844px;
+}
+
+.tel {
+  width: 440px;
+  position: absolute;
+  bottom: calc(50% - 446px);
+  left: calc(50% - 220px);
+  z-index: -1;
+}

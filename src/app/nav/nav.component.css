@@ -3,6 +3,7 @@ nav {
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
     padding: 15px;
+  margin-top: 29px;
 }
 
 .burger_menu {
